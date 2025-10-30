@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("/")
     public Mono<String> home() {
-        return Mono.just("✅ Spring WebFlux app is running successfully!");
+        return Mono.just("Spring WebFlux app is running successfully!");
     }
 
     @GetMapping("/hello")
